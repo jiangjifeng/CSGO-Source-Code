@@ -90,7 +90,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="echo ..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
+				CommandLine="echo copy Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -165,7 +165,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="echo ..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
+				CommandLine="echo copy x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -239,7 +239,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="echo ..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
+				CommandLine="echo copy Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -314,7 +314,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="echo ..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
+				CommandLine="echo copy x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -384,7 +384,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="echo ..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
+				CommandLine="echo copy Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -455,7 +455,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="echo ..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
+				CommandLine="echo copy x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -524,7 +524,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="echo ..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
+				CommandLine="echo copy Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat Win32\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win32\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
 			/>
 		</Configuration>
 		<Configuration
@@ -594,7 +594,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
-				CommandLine="echo ..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
+				CommandLine="echo copy x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;..\..\filecopy_p4.bat x64\output\$(ConfigurationName)\$(TargetFileName) ..\..\lib\win64\$(ConfigurationName)\$(TargetFileName) ..\..&#x0D;&#x0A;"
 			/>
 		</Configuration>
 	</Configurations>
