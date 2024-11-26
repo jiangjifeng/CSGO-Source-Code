@@ -2,8 +2,9 @@
 
 @if "%1"=="2013" goto 2013
 @if "%1"=="2010" goto 2010
+@if "%1"=="2015" goto 2015
 
-@echo Specify 2010 or 2013 as a command line argument.
+@echo Specify 2010, 2013, or 2015 as a command line argument.
 @exit /b
 
 @:2010
@@ -18,9 +19,15 @@ set SLN=cryptest2013
 set PROJECT=cryptlib2013
 @goto make
 
+@:2015
+set VARSBAT="%VS140COMNTOOLS%vsvars32.bat"
+set SLN=cryptest2015
+set PROJECT=cryptlib2015
+@goto make
+
 :make
 if not defined VSINSTALLDIR (
-call %VARSBAT%
+    call %VARSBAT%
 )
 
 del *.lib /s
